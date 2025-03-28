@@ -13,9 +13,8 @@ def on_connect(client, userdata,flags,rc):
         for item in lista:
             topico = "request/"+item
             client.subscribe(topic=topico)
-        print("✅ Conectado ao Broker com Sucesso")
     else:
-        print("Erro ao se Conectar")
+        pass
     
 async def start_connectMqtt():
     client.username_pw_set(username=broker_config["user_name"],password=broker_config["password"])
