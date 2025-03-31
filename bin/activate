@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/python3-librpiplc/Codigo Python"
+VIRTUAL_ENV="/python3-librpiplc/CodigoPython"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -55,9 +55,9 @@ fi
 
 if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
     _OLD_VIRTUAL_PS1="${PS1:-}"
-    PS1="(Codigo Python) ${PS1:-}"
+    PS1="(CodigoPython) ${PS1:-}"
     export PS1
-    VIRTUAL_ENV_PROMPT="(Codigo Python) "
+    VIRTUAL_ENV_PROMPT="(CodigoPython) "
     export VIRTUAL_ENV_PROMPT
 fi
 

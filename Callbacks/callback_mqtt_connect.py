@@ -2,7 +2,6 @@ from librpiplc.folder_rpiplc.models_v6 import hw
 import paho.mqtt.client as mqtt
 from Broker.config_broker import broker_config
 from Callbacks.callback_receber import on_message
-import time
 import asyncio
 
 lista = list(hw["RPIPLC_58"].keys())

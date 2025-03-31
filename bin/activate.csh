@@ -8,7 +8,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/python3-librpiplc/Codigo Python"
+setenv VIRTUAL_ENV "/python3-librpiplc/CodigoPython"
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"
@@ -17,8 +17,8 @@ setenv PATH "$VIRTUAL_ENV/bin:$PATH"
 set _OLD_VIRTUAL_PROMPT="$prompt"
 
 if (! "$?VIRTUAL_ENV_DISABLE_PROMPT") then
-    set prompt = "(Codigo Python) $prompt"
-    setenv VIRTUAL_ENV_PROMPT "(Codigo Python) "
+    set prompt = "(CodigoPython) $prompt"
+    setenv VIRTUAL_ENV_PROMPT "(CodigoPython) "
 endif
 
 alias pydoc python -m pydoc

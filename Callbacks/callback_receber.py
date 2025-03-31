@@ -1,4 +1,3 @@
-from librpiplc import rpiplc as rp
 from Sensores.sensor_pressao import leitura_sensor
 from Json_response.json_response_erro import json_error_message
 from Sensores.sensor_utrassonico import sensor_utrassonico
